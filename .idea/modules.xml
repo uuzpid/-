@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shangcheng.iml" filepath="$PROJECT_DIR$/shangcheng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangcheng-parent/shangcheng-gateway/shangcheng-gateway.iml" filepath="$PROJECT_DIR$/shangcheng-parent/shangcheng-gateway/shangcheng-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangcheng-parent/shangcheng-parent.iml" filepath="$PROJECT_DIR$/shangcheng-parent/shangcheng-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangcheng-parent/shangcheng-service/shangcheng-service.iml" filepath="$PROJECT_DIR$/shangcheng-parent/shangcheng-service/shangcheng-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangcheng-parent/shangcheng-service-api/shangcheng-service-api.iml" filepath="$PROJECT_DIR$/shangcheng-parent/shangcheng-service-api/shangcheng-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangcheng-parent/shangcheng-web/shangcheng-web.iml" filepath="$PROJECT_DIR$/shangcheng-parent/shangcheng-web/shangcheng-web.iml" />
+    </modules>
+  </component>
+</project>
