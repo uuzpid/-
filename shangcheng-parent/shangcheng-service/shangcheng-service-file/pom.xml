@@ -3,25 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>shangcheng-parent</artifactId>
+        <artifactId>shangcheng-service</artifactId>
         <groupId>com.shangcheng</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>shangcheng-service</artifactId>
-    <!--商城各大微服务的父工程-->
-    <packaging>pom</packaging>
-    <modules>
-        <module>shangcheng-service-goods</module>
-        <module>shangcheng-service-file</module>
-    </modules>
+    <artifactId>shangcheng-service-file</artifactId>
 
-    <!--依赖数据库-->
     <dependencies>
+        <!--FastDFS客户端程序包-->
         <dependency>
-            <artifactId>shangcheng-common-db</artifactId>
+            <groupId>net.oschina.zcx7878</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27.0.0</version>
+        </dependency>
+        <dependency>
             <groupId>com.shangcheng</groupId>
+            <artifactId>shangcheng-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
